@@ -1,0 +1,1 @@
+{"index.js":"function frankenSplice(arr1, arr2, n) {\n  // It's alive. It's alive!\n  const sourcearr = arr1.slice();\n  const targetarr = arr2.slice();\n  sourcearr.reverse().forEach((item)=>{\n  \ttargetarr.splice(n, 0, item)\n  })\n  return targetarr;\n}\n\nfrankenSplice([1, 2, 3], [4, 5, 6], 1);"}
